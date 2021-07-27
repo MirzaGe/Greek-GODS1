@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		4475C91C26AFFEA700AD2A04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4475C91B26AFFEA700AD2A04 /* AppDelegate.swift */; };
 		4475C91E26AFFEA700AD2A04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4475C91D26AFFEA700AD2A04 /* SceneDelegate.swift */; };
-		4475C92026AFFEA700AD2A04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4475C91F26AFFEA700AD2A04 /* ViewController.swift */; };
+		4475C92026AFFEA700AD2A04 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4475C91F26AFFEA700AD2A04 /* TableViewController.swift */; };
 		4475C92326AFFEA700AD2A04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4475C92126AFFEA700AD2A04 /* Main.storyboard */; };
 		4475C92526AFFEAB00AD2A04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4475C92426AFFEAB00AD2A04 /* Assets.xcassets */; };
 		4475C92826AFFEAB00AD2A04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4475C92626AFFEAB00AD2A04 /* LaunchScreen.storyboard */; };
+		4475C93226AFFFB800AD2A04 /* GreekGod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4475C93126AFFFB800AD2A04 /* GreekGod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4475C91826AFFEA700AD2A04 /* Greek GODS1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Greek GODS1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4475C91B26AFFEA700AD2A04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4475C91D26AFFEA700AD2A04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4475C91F26AFFEA700AD2A04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4475C91F26AFFEA700AD2A04 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		4475C92226AFFEA700AD2A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4475C92426AFFEAB00AD2A04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4475C92726AFFEAB00AD2A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4475C92926AFFEAB00AD2A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4475C93126AFFFB800AD2A04 /* GreekGod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreekGod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				4475C91B26AFFEA700AD2A04 /* AppDelegate.swift */,
 				4475C91D26AFFEA700AD2A04 /* SceneDelegate.swift */,
-				4475C91F26AFFEA700AD2A04 /* ViewController.swift */,
+				4475C91F26AFFEA700AD2A04 /* TableViewController.swift */,
 				4475C92126AFFEA700AD2A04 /* Main.storyboard */,
 				4475C92426AFFEAB00AD2A04 /* Assets.xcassets */,
 				4475C92626AFFEAB00AD2A04 /* LaunchScreen.storyboard */,
 				4475C92926AFFEAB00AD2A04 /* Info.plist */,
+				4475C93126AFFFB800AD2A04 /* GreekGod.swift */,
 			);
 			path = "Greek GODS1";
 			sourceTree = "<group>";
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4475C92026AFFEA700AD2A04 /* ViewController.swift in Sources */,
+				4475C92026AFFEA700AD2A04 /* TableViewController.swift in Sources */,
+				4475C93226AFFFB800AD2A04 /* GreekGod.swift in Sources */,
 				4475C91C26AFFEA700AD2A04 /* AppDelegate.swift in Sources */,
 				4475C91E26AFFEA700AD2A04 /* SceneDelegate.swift in Sources */,
 			);
